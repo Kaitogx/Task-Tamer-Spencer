@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task-Tamer</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Task-Tamer</h1>
+    <p>Organize suas tarefas com estilo e eficiência.</p>
+    <button id="themeToggle" title="Alternar tema">🌓</button>
+  </header>
+
+  <main class="todo-container">
+    <form id="todoForm">
+      <input type="text" id="taskInput" placeholder="Adicionar nova tarefa..." autocomplete="off" required />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="taskList"></ul>
+  </main>
+
+  <footer>
+    
+    <div class="socials">
+      <!-- Substitua com seus links -->
+      <a href="#" target="_blank" aria-label="LinkedIn">🔗</a>
+      <a href="#" target="_blank" aria-label="GitHub">🐱</a>
+      <a href="#" target="_blank" aria-label="Email">📧</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
